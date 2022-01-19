@@ -1,4 +1,4 @@
-# Welcome to nft-app 👋
+# Welcome to NFT-Rinkeby-App 👋
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
@@ -89,57 +89,57 @@ owner 0x096cd10D7BEF8D5923b18b18E9f79CA230ee2285
 
 2. Mint some NFT tokens
 
-```sh
-hh run scripts/mint.ts --network rinkeby
-```
+  ```sh
+  hh run scripts/mint.ts --network rinkeby
+  ```
 
 Output:
 
-```sh
-Generating typings for: 0 artifacts in dir: src/types for target: ethers-v5
-Successfully generated 3 typings!
-Successfully generated 3 typings for external artifacts!
-MyAwesomeLogo deployed to: 0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251
-Name MyAwesomeLogo
-Symbol MAL
-Uploaded file to nft storage Token {
-  ipnft: 'bafyreib22oziqft7cbakshc374mwctwiprzyj24ufpeogkjff3lroumcru',
-  url: 'ipfs://bafyreib22oziqft7cbakshc374mwctwiprzyj24ufpeogkjff3lroumcru/metadata.json'
-}
-Minted NFT 0x0aad3903cb8d11f095babdc7ba47963ad6235b0a3cd5d32ee42560798816235a
-Uploaded file to nft storage Token {
-  ipnft: 'bafyreid3gvwkltwkgvpxur3eozuh6dirfg2ohqizhn4rpn764dji272aoe',
-  url: 'ipfs://bafyreid3gvwkltwkgvpxur3eozuh6dirfg2ohqizhn4rpn764dji272aoe/metadata.json'
-}
-Minted NFT 0xe1ed7be02639310cf101b495e55d27421be018cc12cd90d1f46547c627b5132c
-Uploaded file to nft storage Token {
-  ipnft: 'bafyreieealfw66zppxhkivuti5qkmsuihjxgxgrxdfm2o5p4qna5l347bu',
-  url: 'ipfs://bafyreieealfw66zppxhkivuti5qkmsuihjxgxgrxdfm2o5p4qna5l347bu/metadata.json'
-}
-Minted NFT 0x183af6b95464305aa5f9f0ed97a5b8847bd168bbb28e3f6368d04662a44cb8fc
-```
+  ```sh
+  Generating typings for: 0 artifacts in dir: src/types for target: ethers-v5
+  Successfully generated 3 typings!
+  Successfully generated 3 typings for external artifacts!
+  MyAwesomeLogo deployed to: 0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251
+  Name MyAwesomeLogo
+  Symbol MAL
+  Uploaded file to nft storage Token {
+    ipnft: 'bafyreib22oziqft7cbakshc374mwctwiprzyj24ufpeogkjff3lroumcru',
+    url: 'ipfs://bafyreib22oziqft7cbakshc374mwctwiprzyj24ufpeogkjff3lroumcru/metadata.json'
+  }
+  Minted NFT 0x0aad3903cb8d11f095babdc7ba47963ad6235b0a3cd5d32ee42560798816235a
+  Uploaded file to nft storage Token {
+    ipnft: 'bafyreid3gvwkltwkgvpxur3eozuh6dirfg2ohqizhn4rpn764dji272aoe',
+    url: 'ipfs://bafyreid3gvwkltwkgvpxur3eozuh6dirfg2ohqizhn4rpn764dji272aoe/metadata.json'
+  }
+  Minted NFT 0xe1ed7be02639310cf101b495e55d27421be018cc12cd90d1f46547c627b5132c
+  Uploaded file to nft storage Token {
+    ipnft: 'bafyreieealfw66zppxhkivuti5qkmsuihjxgxgrxdfm2o5p4qna5l347bu',
+    url: 'ipfs://bafyreieealfw66zppxhkivuti5qkmsuihjxgxgrxdfm2o5p4qna5l347bu/metadata.json'
+  }
+  Minted NFT 0x183af6b95464305aa5f9f0ed97a5b8847bd168bbb28e3f6368d04662a44cb8fc
+  ```
 
 3.Verify with etherscan.io
 
-```sh
-hh verify --network rinkeby 0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251
-```
+  ```sh
+  hh verify --network rinkeby 0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251
+  ```
 
 Output:
 
-```sh
-Nothing to compile
-Generating typings for: 0 artifacts in dir: src/types for target: ethers-v5
-Successfully generated 3 typings!
-Successfully generated 3 typings for external artifacts!
-Compiling 1 file with 0.8.4
-Successfully submitted source code for contract
-contracts/MyAwesomeLogo.sol:MyAwesomeLogo at 0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251
-for verification on Etherscan. Waiting for verification result...
+  ```sh
+  Nothing to compile
+  Generating typings for: 0 artifacts in dir: src/types for target: ethers-v5
+  Successfully generated 3 typings!
+  Successfully generated 3 typings for external artifacts!
+  Compiling 1 file with 0.8.4
+  Successfully submitted source code for contract
+  contracts/MyAwesomeLogo.sol:MyAwesomeLogo at 0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251
+  for verification on Etherscan. Waiting for verification result...
 
-Successfully verified contract MyAwesomeLogo on Etherscan.
-https://rinkeby.etherscan.io/address/0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251#code
-```
+  Successfully verified contract MyAwesomeLogo on Etherscan.
+  https://rinkeby.etherscan.io/address/0x39a5079afE9F3e3bB4db1B943e2063AC3dc87251#code
+  ```
 
 ## Hardhat guideline
 
@@ -149,24 +149,24 @@ The project comes with a sample contract, a test for that contract, a sample scr
 
 Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile --network localhost
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-npx hardhat help
-REPORT_GAS=true npx hardhat test
-npx hardhat coverage
-npx hardhat run scripts/deploy_greeter.js --network localhost
-node scripts/deploy.js
-npx eslint '**/*.js'
-npx eslint '**/*.js' --fix
-npx prettier '**/*.{json,sol,md}' --check
-npx prettier '**/*.{json,sol,md}' --write
-npx solhint 'contracts/**/*.sol'
-npx solhint 'contracts/**/*.sol' --fix
-```
+  ```shell
+  npx hardhat accounts
+  npx hardhat compile --network localhost
+  npx hardhat clean
+  npx hardhat test
+  npx hardhat node
+  npx hardhat help
+  REPORT_GAS=true npx hardhat test
+  npx hardhat coverage
+  npx hardhat run scripts/deploy_greeter.js --network localhost
+  node scripts/deploy.js
+  npx eslint '**/*.js'
+  npx eslint '**/*.js' --fix
+  npx prettier '**/*.{json,sol,md}' --check
+  npx prettier '**/*.{json,sol,md}' --write
+  npx solhint 'contracts/**/*.sol'
+  npx solhint 'contracts/**/*.sol' --fix
+  ```
 
 ## Etherscan verification
 
@@ -202,29 +202,9 @@ Then, deploy the upgrade smart contract
 npx hardhat run --network localhost scripts/upgrade_box.js
 ```
 
-## Examples
-
-- [Simple Store App](https://github.com/jellydn/nft-app/pull/20): counter-like smart contract, read/write value and listen to event from smart contract.
-- [ICO Token App](https://github.com/jellydn/dapp-token-ico): How to create An ERC20 token and implement ICO smart contract (CrowdSale).
-
 ## Author
 
 👤 **Dung Huynh**
 
 - Website: https://productsway.com/
-- Twitter: [@jellydn](https://twitter.com/jellydn)
-- Github: [@jellydn](https://github.com/jellydn)
-
-## Stargazers 🌟
-
-[![Stargazers repo roster for jellydn/nft-app](https://reporoster.com/stars/jellydn/nft-app)](https://github.com/jellydn/nft-app/stargazers)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q61Q7YM)
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+- Github: [@venus713](https://github.com/venus713)
